@@ -1,0 +1,874 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Nguyễn",
+      "lastName": "Văn An",
+      "age": 30,
+      "gender": "nam",
+      "email": "an.nguyen@thanglong.com",
+      "phone": "0978526111",
+      "username": "an.nguyen",
+      "password": "anpassword",
+      "birthDate": "1994-03-15",
+      "address": {
+        "address": "12 Nguyễn Khánh Toàn",
+        "city": "Hà Nội",
+        "country": "Việt Nam"
+      },
+      "university": "Trường Đại học Bách Khoa Hà Nội",
+      "company": {
+        "department": "Engineering",
+        "name": "Công ty cổ phần thuốc lá Thăng Long",
+        "title": "Kỹ sư phần mềm",
+        "address": {
+          "address": "25 Phố Vũ Ngọc Phan, Láng Hạ",
+          "city": "Hà Nội",
+          "country": "Việt Nam"
+        }
+      },
+      "role": "user"
+    },
+    {
+      "id": 2,
+      "firstName": "Phạm",
+      "lastName": "Thị Hoa",
+      "age": 28,
+      "gender": "nữ",
+      "email": "hoa.pham@thanglong.com",
+      "phone": "0978123456",
+      "username": "hoa.pham",
+      "password": "hoapassword",
+      "birthDate": "1996-05-20",
+      "address": {
+        "address": "34 Lê Văn Lương",
+        "city": "Hà Nội",
+        "country": "Việt Nam"
+      },
+      "university": "Trường Đại học Kinh tế Quốc dân",
+      "company": {
+        "department": "Marketing",
+        "name": "Công ty cổ phần thuốc lá Thăng Long",
+        "title": "Chuyên viên Marketing",
+        "address": {
+          "address": "25 Phố Vũ Ngọc Phan, Láng Hạ",
+          "city": "Hà Nội",
+          "country": "Việt Nam"
+        }
+      },
+      "role": "user"
+    },
+    {
+      "id": 3,
+      "firstName": "Trần",
+      "lastName": "Minh Quân",
+      "age": 32,
+      "gender": "nam",
+      "email": "quan.tran@thanglong.com",
+      "phone": "0987321456",
+      "username": "quan.tran",
+      "password": "quanpassword",
+      "birthDate": "1992-08-12",
+      "address": {
+        "address": "56 Đào Tấn",
+        "city": "Hà Nội",
+        "country": "Việt Nam"
+      },
+      "university": "Trường Đại học Giao thông Vận tải",
+      "company": {
+        "department": "Sales",
+        "name": "Công ty cổ phần thuốc lá Thăng Long",
+        "title": "Trưởng phòng kinh doanh",
+        "address": {
+          "address": "25 Phố Vũ Ngọc Phan, Láng Hạ",
+          "city": "Hà Nội",
+          "country": "Việt Nam"
+        }
+      },
+      "role": "admin"
+    },
+    {
+      "id": 4,
+      "firstName": "Lê",
+      "lastName": "Thị Lan",
+      "age": 29,
+      "gender": "nữ",
+      "email": "lan.le@thanglong.com",
+      "phone": "0978123123",
+      "username": "lan.le",
+      "password": "lanpassword",
+      "birthDate": "1995-07-01",
+      "address": {
+        "address": "23 Trần Duy Hưng",
+        "city": "Hà Nội",
+        "country": "Việt Nam"
+      },
+      "university": "Trường Đại học Thương mại",
+      "company": {
+        "department": "Human Resources",
+        "name": "Công ty cổ phần thuốc lá Thăng Long",
+        "title": "Nhân viên nhân sự",
+        "address": {
+          "address": "25 Phố Vũ Ngọc Phan, Láng Hạ",
+          "city": "Hà Nội",
+          "country": "Việt Nam"
+        }
+      },
+      "role": "user"
+    },
+    {
+      "id": 5,
+      "firstName": "Hoàng",
+      "lastName": "Văn Bình",
+      "age": 35,
+      "gender": "nam",
+      "email": "binh.hoang@thanglong.com",
+      "phone": "0978112233",
+      "username": "binh.hoang",
+      "password": "binhpassword",
+      "birthDate": "1989-11-25",
+      "address": {
+        "address": "10 Láng Hạ",
+        "city": "Hà Nội",
+        "country": "Việt Nam"
+      },
+      "university": "Trường Đại học Quốc gia Hà Nội",
+      "company": {
+        "department": "Engineering",
+        "name": "Công ty cổ phần thuốc lá Thăng Long",
+        "title": "Trưởng phòng kỹ thuật",
+        "address": {
+          "address": "25 Phố Vũ Ngọc Phan, Láng Hạ",
+          "city": "Hà Nội",
+          "country": "Việt Nam"
+        }
+      },
+      "role": "admin"
+    },
+    {
+      "id": 6,
+      "firstName": "Nguyễn",
+      "lastName": "Thị Hạnh",
+      "age": 26,
+      "gender": "nữ",
+      "email": "hanh.nguyen@thanglong.com",
+      "phone": "0978556677",
+      "username": "hanh.nguyen",
+      "password": "hanhpassword",
+      "birthDate": "1998-09-10",
+      "address": {
+        "address": "45 Trần Quang Khải",
+        "city": "Hà Nội",
+        "country": "Việt Nam"
+      },
+      "university": "Trường Đại học Ngoại thương",
+      "company": {
+        "department": "Finance",
+        "name": "Công ty cổ phần thuốc lá Thăng Long",
+        "title": "Kế toán viên",
+        "address": {
+          "address": "25 Phố Vũ Ngọc Phan, Láng Hạ",
+          "city": "Hà Nội",
+          "country": "Việt Nam"
+        }
+      },
+      "role": "user"
+    },
+    {
+      "id": 7,
+      "firstName": "Đỗ",
+      "lastName": "Mạnh Hùng",
+      "age": 31,
+      "gender": "nam",
+      "email": "hung.do@thanglong.com",
+      "phone": "0978223344",
+      "username": "hung.do",
+      "password": "hungpassword",
+      "birthDate": "1993-12-08",
+      "address": {
+        "address": "89 Đường Láng",
+        "city": "Hà Nội",
+        "country": "Việt Nam"
+      },
+      "university": "Trường Đại học Công nghiệp Hà Nội",
+      "company": {
+        "department": "IT",
+        "name": "Công ty cổ phần thuốc lá Thăng Long",
+        "title": "Chuyên viên IT",
+        "address": {
+          "address": "25 Phố Vũ Ngọc Phan, Láng Hạ",
+          "city": "Hà Nội",
+          "country": "Việt Nam"
+        }
+      },
+      "role": "admin"
+    },
+    {
+      "id": 8,
+      "firstName": "Phạm",
+      "lastName": "Hồng Sơn",
+      "age": 27,
+      "gender": "nam",
+      "email": "son.pham@thanglong.com",
+      "phone": "0978667788",
+      "username": "son.pham",
+      "password": "sonpassword",
+      "birthDate": "1997-03-22",
+      "address": {
+        "address": "90 Nguyễn Thái Học",
+        "city": "Hà Nội",
+        "country": "Việt Nam"
+      },
+      "university": "Trường Đại học Kinh tế Quốc dân",
+      "company": {
+        "department": "Sales",
+        "name": "Công ty cổ phần thuốc lá Thăng Long",
+        "title": "Nhân viên kinh doanh",
+        "address": {
+          "address": "25 Phố Vũ Ngọc Phan, Láng Hạ",
+          "city": "Hà Nội",
+          "country": "Việt Nam"
+        }
+      },
+      "role": "user"
+    },
+    {
+      "id": 9,
+      "firstName": "Vũ",
+      "lastName": "Văn Nam",
+      "age": 36,
+      "gender": "nam",
+      "email": "nam.vu@thanglong.com",
+      "phone": "0978778899",
+      "username": "nam.vu",
+      "password": "nampassword",
+      "birthDate": "1988-07-15",
+      "address": {
+        "address": "123 Hoàng Quốc Việt",
+        "city": "Hà Nội",
+        "country": "Việt Nam"
+      },
+      "university": "Trường Đại học Kinh tế Quốc dân",
+      "company": {
+        "department": "Sales",
+        "name": "Công ty cổ phần thuốc lá Thăng Long",
+        "title": "Phó phòng kinh doanh",
+        "address": {
+          "address": "25 Phố Vũ Ngọc Phan, Láng Hạ",
+          "city": "Hà Nội",
+          "country": "Việt Nam"
+        }
+      },
+      "role": "user"
+    },
+    {
+      "id": 10,
+      "firstName": "Lê",
+      "lastName": "Thị Thảo",
+      "age": 24,
+      "gender": "nữ",
+      "email": "thao.le@thanglong.com",
+      "phone": "0978996655",
+      "username": "thao.le",
+      "password": "thaopassword",
+      "birthDate": "2000-01-05",
+      "address": {
+        "address": "78 Nguyễn Chí Thanh",
+        "city": "Hà Nội",
+        "country": "Việt Nam"
+      },
+      "university": "Trường Đại học Khoa học Xã hội và Nhân văn",
+      "company": {
+        "department": "Human Resources",
+        "name": "Công ty cổ phần thuốc lá Thăng Long",
+        "title": "Nhân viên tuyển dụng",
+        "address": {
+          "address": "25 Phố Vũ Ngọc Phan, Láng Hạ",
+          "city": "Hà Nội",
+          "country": "Việt Nam"
+        }
+      },
+      "role": "user"
+    },
+    {
+      "id": 11,
+      "firstName": "Hoàng",
+      "lastName": "Thị Hà",
+      "age": 29,
+      "gender": "nữ",
+      "email": "ha.hoang@thanglong.com",
+      "phone": "0978334445",
+      "username": "ha.hoang",
+      "password": "hapassword",
+      "birthDate": "1995-02-14",
+      "address": {
+        "address": "12 Chùa Bộc",
+        "city": "Hà Nội",
+        "country": "Việt Nam"
+      },
+      "university": "Trường Đại học Ngoại thương",
+      "company": {
+        "department": "Finance",
+        "name": "Công ty cổ phần thuốc lá Thăng Long",
+        "title": "Kế toán viên",
+        "address": {
+          "address": "25 Phố Vũ Ngọc Phan, Láng Hạ",
+          "city": "Hà Nội",
+          "country": "Việt Nam"
+        }
+      },
+      "role": "user"
+    },
+    {
+      "id": 12,
+      "firstName": "Phạm",
+      "lastName": "Văn Tùng",
+      "age": 33,
+      "gender": "nam",
+      "email": "tung.pham@thanglong.com",
+      "phone": "0978664455",
+      "username": "tung.pham",
+      "password": "tungpassword",
+      "birthDate": "1991-06-30",
+      "address": {
+        "address": "56 Tôn Đức Thắng",
+        "city": "Hà Nội",
+        "country": "Việt Nam"
+      },
+      "university": "Trường Đại học Giao thông Vận tải",
+      "company": {
+        "department": "Engineering",
+        "name": "Công ty cổ phần thuốc lá Thăng Long",
+        "title": "Kỹ sư phần mềm",
+        "address": {
+          "address": "25 Phố Vũ Ngọc Phan, Láng Hạ",
+          "city": "Hà Nội",
+          "country": "Việt Nam"
+        }
+      },
+      "role": "user"
+    },
+    {
+      "id": 13,
+      "firstName": "Trần",
+      "lastName": "Thị Ngọc",
+      "age": 28,
+      "gender": "nữ",
+      "email": "ngoc.tran@thanglong.com",
+      "phone": "0978445566",
+      "username": "ngoc.tran",
+      "password": "ngocpassword",
+      "birthDate": "1996-11-18",
+      "address": {
+        "address": "23 Nguyễn Khuyến",
+        "city": "Hà Nội",
+        "country": "Việt Nam"
+      },
+      "university": "Trường Đại học Thương mại",
+      "company": {
+        "department": "Marketing",
+        "name": "Công ty cổ phần thuốc lá Thăng Long",
+        "title": "Chuyên viên Marketing",
+        "address": {
+          "address": "25 Phố Vũ Ngọc Phan, Láng Hạ",
+          "city": "Hà Nội",
+          "country": "Việt Nam"
+        }
+      },
+      "role": "user"
+    },
+    {
+      "id": 14,
+      "firstName": "Lê",
+      "lastName": "Quốc Hùng",
+      "age": 34,
+      "gender": "nam",
+      "email": "hung.le@thanglong.com",
+      "phone": "0978223344",
+      "username": "hung.le",
+      "password": "hungpassword",
+      "birthDate": "1990-08-09",
+      "address": {
+        "address": "34 Lê Đại Hành",
+        "city": "Hà Nội",
+        "country": "Việt Nam"
+      },
+      "university": "Trường Đại học Bách Khoa Hà Nội",
+      "company": {
+        "department": "Sales",
+        "name": "Công ty cổ phần thuốc lá Thăng Long",
+        "title": "Trưởng phòng kinh doanh",
+        "address": {
+          "address": "25 Phố Vũ Ngọc Phan, Láng Hạ",
+          "city": "Hà Nội",
+          "country": "Việt Nam"
+        }
+      },
+      "role": "admin"
+    },
+    {
+      "id": 15,
+      "firstName": "Nguyễn",
+      "lastName": "Thu Hà",
+      "age": 27,
+      "gender": "nữ",
+      "email": "ha.nguyen@thanglong.com",
+      "phone": "0978445567",
+      "username": "ha.nguyen",
+      "password": "hapassword",
+      "birthDate": "1997-12-22",
+      "address": {
+        "address": "76 Đặng Văn Ngữ",
+        "city": "Hà Nội",
+        "country": "Việt Nam"
+      },
+      "university": "Trường Đại học Khoa học Xã hội và Nhân văn",
+      "company": {
+        "department": "Finance",
+        "name": "Công ty cổ phần thuốc lá Thăng Long",
+        "title": "Kế toán trưởng",
+        "address": {
+          "address": "25 Phố Vũ Ngọc Phan, Láng Hạ",
+          "city": "Hà Nội",
+          "country": "Việt Nam"
+        }
+      },
+      "role": "admin"
+    },
+    {
+      "id": 16,
+      "firstName": "Hoàng",
+      "lastName": "Văn Cường",
+      "age": 28,
+      "gender": "nam",
+      "email": "cuong.hoang@thanglong.com",
+      "phone": "0978996657",
+      "username": "cuong.hoang",
+      "password": "cuongpassword",
+      "birthDate": "1996-04-11",
+      "address": {
+        "address": "56 Trần Thái Tông",
+        "city": "Hà Nội",
+        "country": "Việt Nam"
+      },
+      "university": "Trường Đại học Quốc gia Hà Nội",
+      "company": {
+        "department": "IT",
+        "name": "Công ty cổ phần thuốc lá Thăng Long",
+        "title": "Quản trị hệ thống",
+        "address": {
+          "address": "25 Phố Vũ Ngọc Phan, Láng Hạ",
+          "city": "Hà Nội",
+          "country": "Việt Nam"
+        }
+      },
+      "role": "user"
+    },
+    {
+      "id": 17,
+      "firstName": "Trần",
+      "lastName": "Ngọc Lan",
+      "age": 32,
+      "gender": "nữ",
+      "email": "lan.tran@thanglong.com",
+      "phone": "0978334446",
+      "username": "lan.tran",
+      "password": "lanpassword",
+      "birthDate": "1992-10-15",
+      "address": {
+        "address": "23 Đội Cấn",
+        "city": "Hà Nội",
+        "country": "Việt Nam"
+      },
+      "university": "Trường Đại học Kinh tế Quốc dân",
+      "company": {
+        "department": "Human Resources",
+        "name": "Công ty cổ phần thuốc lá Thăng Long",
+        "title": "Nhân viên nhân sự",
+        "address": {
+          "address": "25 Phố Vũ Ngọc Phan, Láng Hạ",
+          "city": "Hà Nội",
+          "country": "Việt Nam"
+        }
+      },
+      "role": "user"
+    },
+    {
+      "id": 18,
+      "firstName": "Nguyễn",
+      "lastName": "Hữu Tài",
+      "age": 29,
+      "gender": "nam",
+      "email": "tai.nguyen@thanglong.com",
+      "phone": "0978445568",
+      "username": "tai.nguyen",
+      "password": "taipassword",
+      "birthDate": "1995-01-29",
+      "address": {
+        "address": "12 Cầu Giấy",
+        "city": "Hà Nội",
+        "country": "Việt Nam"
+      },
+      "university": "Trường Đại học Bách Khoa Hà Nội",
+      "company": {
+        "department": "Engineering",
+        "name": "Công ty cổ phần thuốc lá Thăng Long",
+        "title": "Kỹ sư phần mềm",
+        "address": {
+          "address": "25 Phố Vũ Ngọc Phan, Láng Hạ",
+          "city": "Hà Nội",
+          "country": "Việt Nam"
+        }
+      },
+      "role": "user"
+    },
+    {
+      "id": 19,
+      "firstName": "Phạm",
+      "lastName": "Quang Huy",
+      "age": 31,
+      "gender": "nam",
+      "email": "huy.pham@thanglong.com",
+      "phone": "0978778898",
+      "username": "huy.pham",
+      "password": "huypassword",
+      "birthDate": "1993-09-19",
+      "address": {
+        "address": "34 Lý Thường Kiệt",
+        "city": "Hà Nội",
+        "country": "Việt Nam"
+      },
+      "university": "Trường Đại học Ngoại thương",
+      "company": {
+        "department": "Finance",
+        "name": "Công ty cổ phần thuốc lá Thăng Long",
+        "title": "Chuyên viên phân tích tài chính",
+        "address": {
+          "address": "25 Phố Vũ Ngọc Phan, Láng Hạ",
+          "city": "Hà Nội",
+          "country": "Việt Nam"
+        }
+      },
+      "role": "user"
+    },
+    {
+      "id": 20,
+      "firstName": "Lê",
+      "lastName": "Minh Hoàng",
+      "age": 33,
+      "gender": "nam",
+      "email": "hoang.le@thanglong.com",
+      "phone": "0978334447",
+      "username": "hoang.le",
+      "password": "hoangpassword",
+      "birthDate": "1991-11-11",
+      "address": {
+        "address": "56 Cầu Giấy",
+        "city": "Hà Nội",
+        "country": "Việt Nam"
+      },
+      "university": "Trường Đại học Thương mại",
+      "company": {
+        "department": "Marketing",
+        "name": "Công ty cổ phần thuốc lá Thăng Long",
+        "title": "Trưởng phòng Marketing",
+        "address": {
+          "address": "25 Phố Vũ Ngọc Phan, Láng Hạ",
+          "city": "Hà Nội",
+          "country": "Việt Nam"
+        }
+      },
+      "role": "admin"
+    },
+    {
+      "id": 21,
+      "firstName": "Trần",
+      "lastName": "Thu Trang",
+      "age": 27,
+      "gender": "nữ",
+      "email": "trang.tran@thanglong.com",
+      "phone": "0978445569",
+      "username": "trang.tran",
+      "password": "trangpassword",
+      "birthDate": "1997-04-17",
+      "address": {
+        "address": "78 Đội Cấn",
+        "city": "Hà Nội",
+        "country": "Việt Nam"
+      },
+      "university": "Trường Đại học Ngoại thương",
+      "company": {
+        "department": "Human Resources",
+        "name": "Công ty cổ phần thuốc lá Thăng Long",
+        "title": "Nhân viên nhân sự",
+        "address": {
+          "address": "25 Phố Vũ Ngọc Phan, Láng Hạ",
+          "city": "Hà Nội",
+          "country": "Việt Nam"
+        }
+      },
+      "role": "user"
+    },
+    {
+      "id": 22,
+      "firstName": "Nguyễn",
+      "lastName": "Minh Hòa",
+      "age": 28,
+      "gender": "nam",
+      "email": "hoa.nguyen@thanglong.com",
+      "phone": "0978996656",
+      "username": "hoa.nguyen",
+      "password": "hoapassword",
+      "birthDate": "1996-03-29",
+      "address": {
+        "address": "23 Láng Hạ",
+        "city": "Hà Nội",
+        "country": "Việt Nam"
+      },
+      "university": "Trường Đại học Giao thông Vận tải",
+      "company": {
+        "department": "Sales",
+        "name": "Công ty cổ phần thuốc lá Thăng Long",
+        "title": "Nhân viên kinh doanh",
+        "address": {
+          "address": "25 Phố Vũ Ngọc Phan, Láng Hạ",
+          "city": "Hà Nội",
+          "country": "Việt Nam"
+        }
+      },
+      "role": "user"
+    },
+    {
+      "id": 23,
+      "firstName": "Hoàng",
+      "lastName": "Văn Dũng",
+      "age": 34,
+      "gender": "nam",
+      "email": "dung.hoang@thanglong.com",
+      "phone": "0978223345",
+      "username": "dung.hoang",
+      "password": "dungpassword",
+      "birthDate": "1990-09-08",
+      "address": {
+        "address": "34 Láng Hạ",
+        "city": "Hà Nội",
+        "country": "Việt Nam"
+      },
+      "university": "Trường Đại học Quốc gia Hà Nội",
+      "company": {
+        "department": "IT",
+        "name": "Công ty cổ phần thuốc lá Thăng Long",
+        "title": "Quản trị hệ thống",
+        "address": {
+          "address": "25 Phố Vũ Ngọc Phan, Láng Hạ",
+          "city": "Hà Nội",
+          "country": "Việt Nam"
+        }
+      },
+      "role": "user"
+    },
+    {
+      "id": 24,
+      "firstName": "Lê",
+      "lastName": "Thị Hồng",
+      "age": 29,
+      "gender": "nữ",
+      "email": "hong.le@thanglong.com",
+      "phone": "0978334448",
+      "username": "hong.le",
+      "password": "hongpassword",
+      "birthDate": "1995-11-01",
+      "address": {
+        "address": "78 Nguyễn Chí Thanh",
+        "city": "Hà Nội",
+        "country": "Việt Nam"
+      },
+      "university": "Trường Đại học Thương mại",
+      "company": {
+        "department": "Human Resources",
+        "name": "Công ty cổ phần thuốc lá Thăng Long",
+        "title": "Nhân viên tuyển dụng",
+        "address": {
+          "address": "25 Phố Vũ Ngọc Phan, Láng Hạ",
+          "city": "Hà Nội",
+          "country": "Việt Nam"
+        }
+      },
+      "role": "user"
+    },
+    {
+      "id": 25,
+      "firstName": "Nguyễn",
+      "lastName": "Thu Thủy",
+      "age": 32,
+      "gender": "nữ",
+      "email": "thuy.nguyen@thanglong.com",
+      "phone": "0978334449",
+      "username": "thuy.nguyen",
+      "password": "thuypassword",
+      "birthDate": "1992-05-10",
+      "address": {
+        "address": "12 Nguyễn Trãi",
+        "city": "Hà Nội",
+        "country": "Việt Nam"
+      },
+      "university": "Trường Đại học Kinh tế Quốc dân",
+      "company": {
+        "department": "Finance",
+        "name": "Công ty cổ phần thuốc lá Thăng Long",
+        "title": "Chuyên viên phân tích tài chính",
+        "address": {
+          "address": "25 Phố Vũ Ngọc Phan, Láng Hạ",
+          "city": "Hà Nội",
+          "country": "Việt Nam"
+        }
+      },
+      "role": "user"
+    },
+    {
+      "id": 26,
+      "firstName": "Hoàng",
+      "lastName": "Văn Đạt",
+      "age": 27,
+      "gender": "nam",
+      "email": "dat.hoang@thanglong.com",
+      "phone": "0978664457",
+      "username": "dat.hoang",
+      "password": "datpassword",
+      "birthDate": "1997-08-01",
+      "address": {
+        "address": "90 Lê Văn Lương",
+        "city": "Hà Nội",
+        "country": "Việt Nam"
+      },
+      "university": "Trường Đại học Bách Khoa Hà Nội",
+      "company": {
+        "department": "Engineering",
+        "name": "Công ty cổ phần thuốc lá Thăng Long",
+        "title": "Kỹ sư phần mềm",
+        "address": {
+          "address": "25 Phố Vũ Ngọc Phan, Láng Hạ",
+          "city": "Hà Nội",
+          "country": "Việt Nam"
+        }
+      },
+      "role": "user"
+    },
+    {
+      "id": 27,
+      "firstName": "Phạm",
+      "lastName": "Thị Vân",
+      "age": 25,
+      "gender": "nữ",
+      "email": "van.pham@thanglong.com",
+      "phone": "0978996658",
+      "username": "van.pham",
+      "password": "vanpassword",
+      "birthDate": "1999-03-02",
+      "address": {
+        "address": "56 Nguyễn Chí Thanh",
+        "city": "Hà Nội",
+        "country": "Việt Nam"
+      },
+      "university": "Trường Đại học Thương mại",
+      "company": {
+        "department": "Marketing",
+        "name": "Công ty cổ phần thuốc lá Thăng Long",
+        "title": "Chuyên viên Marketing",
+        "address": {
+          "address": "25 Phố Vũ Ngọc Phan, Láng Hạ",
+          "city": "Hà Nội",
+          "country": "Việt Nam"
+        }
+      },
+      "role": "user"
+    },
+    {
+      "id": 28,
+      "firstName": "Trần",
+      "lastName": "Minh Tuấn",
+      "age": 34,
+      "gender": "nam",
+      "email": "tuan.tran@thanglong.com",
+      "phone": "0978445561",
+      "username": "tuan.tran",
+      "password": "tuanpassword",
+      "birthDate": "1990-05-05",
+      "address": {
+        "address": "23 Nguyễn Chí Thanh",
+        "city": "Hà Nội",
+        "country": "Việt Nam"
+      },
+      "university": "Trường Đại học Quốc gia Hà Nội",
+      "company": {
+        "department": "IT",
+        "name": "Công ty cổ phần thuốc lá Thăng Long",
+        "title": "Quản trị hệ thống",
+        "address": {
+          "address": "25 Phố Vũ Ngọc Phan, Láng Hạ",
+          "city": "Hà Nội",
+          "country": "Việt Nam"
+        }
+      },
+      "role": "admin"
+    },
+    {
+      "id": 29,
+      "firstName": "Lê",
+      "lastName": "Thị Xuân",
+      "age": 30,
+      "gender": "nữ",
+      "email": "xuan.le@thanglong.com",
+      "phone": "0978223347",
+      "username": "xuan.le",
+      "password": "xuanpassword",
+      "birthDate": "1994-12-12",
+      "address": {
+        "address": "90 Đặng Văn Ngữ",
+        "city": "Hà Nội",
+        "country": "Việt Nam"
+      },
+      "university": "Trường Đại học Ngoại thương",
+      "company": {
+        "department": "Finance",
+        "name": "Công ty cổ phần thuốc lá Thăng Long",
+        "title": "Kế toán trưởng",
+        "address": {
+          "address": "25 Phố Vũ Ngọc Phan, Láng Hạ",
+          "city": "Hà Nội",
+          "country": "Việt Nam"
+        }
+      },
+      "role": "admin"
+    },
+    {
+      "id": 30,
+      "firstName": "Phạm",
+      "lastName": "Quốc Khánh",
+      "age": 32,
+      "gender": "nam",
+      "email": "khanh.pham@thanglong.com",
+      "phone": "0978664458",
+      "username": "khanh.pham",
+      "password": "khanhpassword",
+      "birthDate": "1992-08-21",
+      "address": {
+        "address": "56 Nguyễn Khánh Toàn",
+        "city": "Hà Nội",
+        "country": "Việt Nam"
+      },
+      "university": "Trường Đại học Giao thông Vận tải",
+      "company": {
+        "department": "Engineering",
+        "name": "Công ty cổ phần thuốc lá Thăng Long",
+        "title": "Kỹ sư phần mềm",
+        "address": {
+          "address": "25 Phố Vũ Ngọc Phan, Láng Hạ",
+          "city": "Hà Nội",
+          "country": "Việt Nam"
+        }
+      },
+      "role": "user"
+    }
+  ]
+}
