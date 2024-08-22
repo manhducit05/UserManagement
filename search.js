@@ -9,9 +9,6 @@ const search = (API_User) => {
   API_User = `http://localhost:3000/users?q=${params.q}&_sort=${params.sort}&_order=asc&_page=${params.page}&_limit=${params.limit}`;
   console.log(API_User)
   DrawUser(API_User);
-  setTimeout(() => {
-    window.alert(`Có ${params.total} kết quả tìm kiếm trùng khớp`)
-  }, 500)
 
 }
 export const searchUser = () => {

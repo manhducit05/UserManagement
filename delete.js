@@ -16,11 +16,9 @@ export const deleteUser = () => {
           deleteById(userId)
         })
       })
-
     });
-
   }
-  )
+)
 
 }
 
