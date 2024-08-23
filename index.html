@@ -23,6 +23,7 @@
 
   <!--google material icon-->
   <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
 </head>
 <style>
@@ -40,6 +41,7 @@
   .active {
     background-color: #353B48;
     color: #000;
+    
   }
 </style>
 
@@ -78,8 +80,8 @@
             <i class="material-icons">group</i>Employee
           </a>
           <ul class="collapse list-unstyled menu" id="homeSubmenu2">
-            <li class="sortItem" value=""><a href="#">Employee chart</a></li>
-            <li class="sortItem" value=""><a href="index.html">Manage employee</a></li>
+            <li class="ageChart" value=""><a href="#">Employee chart</a></li>
+            <li class="" value=""><a href="index.html">Manage employee</a></li>
             <li class="sortItem" value="age"><a href="#">Sort by age</a></li>
           </ul>
         </li>
@@ -458,6 +460,20 @@
 
   </div>
   <!-------complete html----------->
+<!-- Chart Modal -->
+<div class="modal fade" id="employeeChartModal" tabindex="-1" role="dialog" aria-labelledby="employeeChartModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="employeeChartModalLabel">Employee Chart</h5>
+        <button type="button close-btn" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <canvas id="employeeChart"></canvas>
+      </div>
+</div>
 
 
 
